@@ -13,6 +13,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.tar.bz2
 Url:		http://datetime.perl.org/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires:	perl(DateTime::Locale) >= 0.21
 BuildRequires:	perl(DateTime::TimeZone) >= 0.38
