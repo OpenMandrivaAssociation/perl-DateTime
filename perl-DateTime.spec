@@ -3,7 +3,7 @@
 
 Summary:	A date and time object in Perl
 Name:		perl-%{module}
-Version:	0.4304
+Version:	0.4305
 Release:	%mkrel 1
 Epoch:		1
 License:	GPL or Artistic
