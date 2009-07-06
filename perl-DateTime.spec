@@ -4,7 +4,7 @@
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
-Epoch:		1
+Epoch:		2
 
 Summary:	A date and time object in Perl
 License:	GPL+ or Artistic
