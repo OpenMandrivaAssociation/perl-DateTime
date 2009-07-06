@@ -1,15 +1,17 @@
-%define module	DateTime
-%define	modprefix DateTime
+%define upstream_name	 DateTime
+%define upstream_version 0.50
 
-Summary:	A date and time object in Perl
-Name:		perl-%{module}
-Version:	0.4501
+Name:		perl-%{upstream_name}
+Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
 Epoch:		1
-License:	GPL or Artistic
+
+Summary:	A date and time object in Perl
+License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		http://datetime.perl.org/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
+
 BuildRequires:	perl-devel
 BuildRequires:	perl(DateTime::Locale) >= 0.21
 BuildRequires:	perl(DateTime::TimeZone) >= 0.38
@@ -20,7 +22,7 @@ BuildRequires:	perl(Test::More) >= 0.34
 BuildRequires:	perl(Time::Local) >= 1.04
 Provides:	perl(DateTimePP)
 Provides:	perl(DateTimePPExtra)
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 DateTime is a class for the representation of date/time combinations, and is
@@ -34,7 +36,7 @@ believed to be the birth of Jesus Christ.
 
 %prep
 
-%setup -q -n %{module}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
@@ -53,6 +55,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc Changes README CREDITS
-%{perl_vendorarch}/%{modprefix}*
+%{perl_vendorarch}/DateTime*
 %{perl_vendorarch}/auto/*
 %{_mandir}/*/*
