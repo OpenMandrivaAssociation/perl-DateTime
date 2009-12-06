@@ -18,10 +18,11 @@ BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.76
 BuildRequires:	perl(Pod::Man) >= 1.14
 BuildRequires:	perl(Scalar::Util)
+BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::More) >= 0.34
 BuildRequires:	perl(Time::Local) >= 1.04
-BuildRequires:	perl-devel
 
+BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 Provides:	perl(DateTimePP)
