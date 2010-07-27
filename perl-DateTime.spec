@@ -1,9 +1,9 @@
 %define upstream_name	 DateTime
-%define upstream_version 0.60
+%define upstream_version 0.61
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 3
+Release:	%mkrel 1
 Epoch:		2
 
 Summary:	A date and time object in Perl
