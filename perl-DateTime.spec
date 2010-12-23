@@ -1,5 +1,5 @@
 %define upstream_name	 DateTime
-%define upstream_version 0.65
+%define upstream_version 0.66
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
