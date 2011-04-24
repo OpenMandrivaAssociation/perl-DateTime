@@ -1,5 +1,5 @@
 %define upstream_name	 DateTime
-%define upstream_version 0.66
+%define upstream_version 0.67
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -21,9 +21,9 @@ BuildRequires:	perl(Scalar::Util)
 BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::More) >= 0.34
 BuildRequires:	perl(Time::Local) >= 1.04
-
+BuildRequires:	perl(Math::Round)
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
+
 
 Provides:	perl(DateTimePP)
 Provides:	perl(DateTimePPExtra)
