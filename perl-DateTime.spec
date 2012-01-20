@@ -1,13 +1,13 @@
 %define upstream_name	 DateTime
-%define upstream_version 0.70
+%define upstream_version 0.72
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 1
+Release:	1
 Epoch:		2
 
 Summary:	A date and time object in Perl
-License:	GPL+ or Artistic
+License:	Artistic
 Group:		Development/Perl
 URL:		http://datetime.perl.org/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
@@ -22,7 +22,9 @@ BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::More) >= 0.34
 BuildRequires:	perl(Time::Local) >= 1.04
 BuildRequires:	perl(Math::Round)
-BuildRequires:	perl-devel
+BuildRequires:	perl(Test::Fatal)
+BuildRequires:	perl-devel >= 2:5.14
+BuildRequires:	perl-List-MoreUtils >= 0.320.0-3
 
 
 Provides:	perl(DateTimePP)
