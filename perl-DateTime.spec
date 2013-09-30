@@ -1,5 +1,5 @@
 %define	modname	DateTime
-%define	modver	0.72
+%define	modver	1.03
 
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
