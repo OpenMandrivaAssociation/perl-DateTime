@@ -1,5 +1,4 @@
-%define	modname	DateTime
-%define modver 1.07
+%define	modname	DateTime%define modver 1.07
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
@@ -10,7 +9,7 @@ Summary:	A date and time object in Perl
 License:	Artistic
 Group:		Development/Perl
 URL:		http://datetime.perl.org/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/DateTime/DateTime-%{modver}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
 
 BuildRequires:	perl(DateTime::Locale) >= 0.21
 BuildRequires:	perl(DateTime::TimeZone) >= 0.38
@@ -255,6 +254,7 @@ perl Build.PL installdirs=vendor
 
 * Thu Aug 26 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 0.22-1mdk
 - Initial MDK release.
+
 
 
 
