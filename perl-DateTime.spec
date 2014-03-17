@@ -1,4 +1,5 @@
-%define	modname	DateTime%define modver 1.07
+%define	modname	DateTime
+%define modver 1.08
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
@@ -254,6 +255,7 @@ perl Build.PL installdirs=vendor
 
 * Thu Aug 26 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 0.22-1mdk
 - Initial MDK release.
+
 
 
 

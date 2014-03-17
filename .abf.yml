@@ -2,5 +2,6 @@ removed_sources:
   DateTime-0.72.tar.gz: 0fb0179a3d689ce7da703f13180083ccd12b6228
   DateTime-1.03.tar.gz: 23cad043140988ea95ad8dcb3095cc5aded0464e
   DateTime-1.06.tar.gz: dbbaf07f3279b6bb1f6587eae30f0bf0c00074e4
-sources:
   DateTime-1.07.tar.gz: 431f9d396ca0a856551d21453b1f30d02258ef21
+sources:
+  DateTime-1.08.tar.gz: a68c182dcadcf38bece5e9e60a0f19f84842eec4
