@@ -14,6 +14,7 @@ URL:		http://datetime.perl.org/
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
 
 BuildRequires:	perl(DateTime::Locale) >= 0.21
+BuildRequires: perl(Test::Warnings)
 BuildRequires:	perl(DateTime::TimeZone) >= 0.38
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.76
