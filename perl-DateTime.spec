@@ -1,9 +1,9 @@
 %define	modname	DateTime
-%define modver 1.12
+%define modver 1.44
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	1
 Epoch:		2
 
 Summary:	A date and time object in Perl
