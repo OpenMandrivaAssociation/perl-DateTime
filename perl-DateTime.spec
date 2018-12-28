@@ -1,5 +1,5 @@
 %define	modname	DateTime
-%define modver 1.48
+%define modver 1.50
 
 # Disabled by default to avoid circular dependency between
 # perl-DateTime and perl-DateTime-TimeZone
@@ -7,14 +7,15 @@
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	1
 Epoch:		2
 
 Summary:	A date and time object in Perl
 License:	Artistic
 Group:		Development/Perl
-URL:		http://datetime.perl.org/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
+URL:		http://metacpan.org/release/DateTime/
+# Also: https://github.com/houseabsolute/DateTime.pm
+Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-%{modver}.tar.gz
 
 BuildRequires:	perl(DateTime::Locale) >= 0.21
 BuildRequires:	perl(Params::Validate) >= 0.76
