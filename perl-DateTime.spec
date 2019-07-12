@@ -1,5 +1,5 @@
 %define	modname	DateTime
-%define modver 1.50
+%define modver 1.51
 
 # Disabled by default to avoid circular dependency between
 # perl-DateTime and perl-DateTime-TimeZone
@@ -53,7 +53,7 @@ believed to be the birth of Jesus Christ.
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %if %{with tests}
 %check
