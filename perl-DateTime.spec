@@ -1,5 +1,5 @@
 %define	modname	DateTime
-%define modver 1.51
+%define modver 1.52
 
 # Disabled by default to avoid circular dependency between
 # perl-DateTime and perl-DateTime-TimeZone
