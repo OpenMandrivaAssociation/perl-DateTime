@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 %define	modname	DateTime
 %define modver 1.54
 
@@ -7,7 +9,7 @@
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	1
+Release:	2
 Epoch:		2
 
 Summary:	A date and time object in Perl
