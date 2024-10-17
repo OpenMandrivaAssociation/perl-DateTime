@@ -15,7 +15,7 @@ Epoch:		2
 Summary:	A date and time object in Perl
 License:	Artistic
 Group:		Development/Perl
-URL:		http://metacpan.org/release/DateTime/
+URL:		https://metacpan.org/release/DateTime/
 # Also: https://github.com/houseabsolute/DateTime.pm
 Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-%{modver}.tar.gz
 
