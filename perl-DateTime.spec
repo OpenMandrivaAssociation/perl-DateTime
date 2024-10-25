@@ -9,7 +9,7 @@
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	4
 Epoch:		2
 
 Summary:	A date and time object in Perl
