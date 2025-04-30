@@ -5,7 +5,7 @@
 %bcond_with tests
 
 Name:		perl-%{modname}
-Version:	1.65
+Version:	1.66
 Release:	1
 
 Summary:	A date and time object in Perl
