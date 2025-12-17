@@ -6,7 +6,7 @@
 
 Name:		perl-%{modname}
 Version:	1.66
-Release:	1
+Release:	2
 
 Summary:	A date and time object in Perl
 License:	Artistic
