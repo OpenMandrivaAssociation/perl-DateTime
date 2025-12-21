@@ -15,6 +15,7 @@ URL:		https://metacpan.org/release/DateTime/
 # Also: https://github.com/houseabsolute/DateTime.pm
 Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl(DateTime::Locale)
 BuildRequires:	perl(Params::Validate)
 BuildRequires:	perl(Pod::Man)
