@@ -5,8 +5,8 @@
 %bcond_with tests
 
 Name:		perl-%{modname}
-Version:	1.66
-Release:	4
+Version:	1.67
+Release:	1
 
 Summary:	A date and time object in Perl
 License:	Artistic
